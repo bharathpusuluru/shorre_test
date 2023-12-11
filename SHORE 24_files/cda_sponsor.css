@@ -1,0 +1,12 @@
+#cdawrap {
+	grid-area: sponsor;
+	justify-self: end;
+}
+
+body #cdawrap .cda-sponsor-link {
+	white-space: normal !important;
+}
+
+body .frame #cdawrap a:not(.frame__title-back):not(.demos__item)::before {
+	display: none;
+}
